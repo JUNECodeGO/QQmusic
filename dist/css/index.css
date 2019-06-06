@@ -1,0 +1,165 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+html .wrapper,
+body .wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 120px;
+  box-sizing: border-box;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+html .wrapper .head,
+body .wrapper .head {
+  width: 70%;
+  height: 0;
+  padding-top: 70%;
+  border-radius: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+html .wrapper .head .imgWrapper,
+body .wrapper .head .imgWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+html .wrapper .head .imgWrapper img,
+body .wrapper .head .imgWrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+html .wrapper .middle,
+body .wrapper .middle {
+  padding-top: 60px;
+  width: 100%;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+html .wrapper .middle .name,
+body .wrapper .middle .name {
+  font-size: 42px;
+  font-weight: bold;
+}
+html .wrapper .pro,
+body .wrapper .pro {
+  padding-top: 140px;
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+html .wrapper .pro .curtime,
+body .wrapper .pro .curtime {
+  width: 15%;
+  display: inline-block;
+  vertical-align: middle;
+}
+html .wrapper .pro .line,
+body .wrapper .pro .line {
+  width: 50%;
+  height: 0;
+  padding-top: 70px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+}
+html .wrapper .pro .line .down,
+body .wrapper .pro .line .down {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  height: 5px;
+  background-color: #f3f3f3;
+}
+html .wrapper .pro .line .spot,
+body .wrapper .pro .line .spot {
+  position: absolute;
+  top: 17px;
+  width: 35px;
+  height: 35px;
+}
+html .wrapper .pro .line .spot::after,
+body .wrapper .pro .line .spot::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 12px;
+  left: 0;
+  background-color: #fff;
+  border-radius: 15px;
+}
+html .wrapper .pro .line .up,
+body .wrapper .pro .line .up {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  height: 5px;
+  background-color: #3f3f3f;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+html .wrapper .pro .alltime,
+body .wrapper .pro .alltime {
+  width: 15%;
+  display: inline-block;
+  vertical-align: middle;
+}
+html .wrapper .foot,
+body .wrapper .foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  background: #999999;
+  display: flex;
+}
+html .wrapper .foot .btn,
+body .wrapper .foot .btn {
+  flex: 1;
+  background: center no-repeat;
+  background-size: 70px;
+}
+html .wrapper .foot .like,
+body .wrapper .foot .like {
+  background-image: url("../image/icon-like.png");
+}
+html .wrapper .foot .likeliking,
+body .wrapper .foot .likeliking {
+  background-image: url("../image/icon-like-solid.png");
+}
+html .wrapper .foot .pre,
+body .wrapper .foot .pre {
+  background-image: url("../image/icon-prev.png");
+}
+html .wrapper .foot .play,
+body .wrapper .foot .play {
+  background-image: url("../image/icon-play.png");
+}
+html .wrapper .foot .playpause,
+body .wrapper .foot .playpause {
+  background-image: url("../image/icon-pause.png");
+}
+html .wrapper .foot .next,
+body .wrapper .foot .next {
+  background-image: url("../image/icon-next.png");
+}
+html .wrapper .foot .list,
+body .wrapper .foot .list {
+  background-image: url("../image/icon-list.png");
+}
