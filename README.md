@@ -1,29 +1,22 @@
-# jQuery bootStrap 学生管理系统
+# 移动端音乐播放器
 
->Vue开发PC端美团网站项目介绍（完成与后台服务器数据交互）
+>音乐的播放暂停、切换歌曲、控制播放进度等.通过该项目更加深刻的掌握了ajax数据获取,明白了设计模式中,模块化思想,将每个功能单独抽离成一个模块.
 
 ### 克隆并运行本项目
 
 ```
 git clone git@github.com:JUNECodeGO/student-management-system.git
-cd student-system
-open index.html
+cd qqmusic
+gulp
 ```
 
 ### 项目所涉及技术:
 
->jQuery、bootStrap、jsonp、echarts、代码管理工具：git 代码托管平台：github
+>gulp+Zepto.JS+less+audio
 
 ### 项目展示
 
-+学生管理系统首页
-+学生注册、学生列表(能与后端服务器交接,正常进行注册与查看)
-+学生数据图标展示页
+![一](https://github.com/JUNECodeGO/QQmusic/blob/master/src/image/1.png)
 
-
-## 项目开发收获
-
-+了解并使用bootStrap与echarts
-
-+熟料掌握掌握与后台进行交互，运用ajax获取数据，通过数据渲染页面的结构
+![一](https://github.com/JUNECodeGO/QQmusic/blob/master/src/image/2.png)
 
